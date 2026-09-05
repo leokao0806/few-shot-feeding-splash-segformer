@@ -1,0 +1,160 @@
+[
+    {
+        "cluster_id": 0,
+        "visual_dashboard_path": "cluster_0_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "C",
+            "source_distribution": "C(91.8%), A(8.2%)",
+            "environment_type": "indoor_concrete_pond",
+            "fish_species": [
+                "hybrid_rock_bream"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 5,
+            "intensity_min": 3,
+            "intensity_max": 6
+        },
+        "vlm_tasks": {
+            "water_color": "TODO: Select from [dark_blue, greenish, muddy_brown, grey_concrete, black_monochrome]",
+            "texture_type": "TODO: Select from [smooth_concentric, chaotic_ripples, foamy_white, glassy, striated_noise]",
+            "splash_shape": "TODO: Select from [droplets, columnar, ripple, spray, boiling, chaotic_whitewater, faint_disturbance]",
+            "surface_cover": "TODO: Select from [none, white_netting_overlay, floating_algae, foam_scum]",
+            "interference": "TODO: Select from [none, paddlewheel_aerator, aerator_bubbles, bird_or_rat, plastic_pipes, green_net_fencing, distant_cages]",
+            "lighting": "TODO: Select from [diffuse, high_glare, shadowed, infrared_night_vision, ir_stripes]",
+            "container_edge": "TODO: Select from [none, open_water, plastic_edge, concrete_wall, netting]",
+            "description": "TODO: Concise visual description"
+        }
+    },
+    {
+        "cluster_id": 1,
+        "visual_dashboard_path": "cluster_1_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "D",
+            "source_distribution": "D(76.4%), E(18.2%), B(3.9%), A(0.8%), C(0.8%)",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "seabass"
+            ],
+            "perspective": "far_distant",
+            "splash_intensity": 4,
+            "intensity_min": 1,
+            "intensity_max": 5
+        },
+        "vlm_tasks": {
+            "water_color": "TODO: Select from [dark_blue, greenish, muddy_brown, grey_concrete, black_monochrome]",
+            "texture_type": "TODO: Select from [smooth_concentric, chaotic_ripples, foamy_white, glassy, striated_noise]",
+            "splash_shape": "TODO: Select from [droplets, columnar, ripple, spray, boiling, chaotic_whitewater, faint_disturbance]",
+            "surface_cover": "TODO: Select from [none, white_netting_overlay, floating_algae, foam_scum]",
+            "interference": "TODO: Select from [none, paddlewheel_aerator, aerator_bubbles, bird_or_rat, plastic_pipes, green_net_fencing, distant_cages]",
+            "lighting": "TODO: Select from [diffuse, high_glare, shadowed, infrared_night_vision, ir_stripes]",
+            "container_edge": "TODO: Select from [none, open_water, plastic_edge, concrete_wall, netting]",
+            "description": "TODO: Concise visual description"
+        }
+    },
+    {
+        "cluster_id": 2,
+        "visual_dashboard_path": "cluster_2_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "B",
+            "source_distribution": "B(83.1%), D(16.9%)",
+            "environment_type": "offshore_cage",
+            "fish_species": [
+                "cobia",
+                "pompano"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 9,
+            "intensity_min": 2,
+            "intensity_max": 10
+        },
+        "vlm_tasks": {
+            "water_color": "TODO: Select from [dark_blue, greenish, muddy_brown, grey_concrete, black_monochrome]",
+            "texture_type": "TODO: Select from [smooth_concentric, chaotic_ripples, foamy_white, glassy, striated_noise]",
+            "splash_shape": "TODO: Select from [droplets, columnar, ripple, spray, boiling, chaotic_whitewater, faint_disturbance]",
+            "surface_cover": "TODO: Select from [none, white_netting_overlay, floating_algae, foam_scum]",
+            "interference": "TODO: Select from [none, paddlewheel_aerator, aerator_bubbles, bird_or_rat, plastic_pipes, green_net_fencing, distant_cages]",
+            "lighting": "TODO: Select from [diffuse, high_glare, shadowed, infrared_night_vision, ir_stripes]",
+            "container_edge": "TODO: Select from [none, open_water, plastic_edge, concrete_wall, netting]",
+            "description": "TODO: Concise visual description"
+        }
+    },
+    {
+        "cluster_id": 3,
+        "visual_dashboard_path": "cluster_3_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "E",
+            "source_distribution": "E(80.8%), D(19.2%)",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "fourfinger_threadfin"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 2,
+            "intensity_min": 1,
+            "intensity_max": 5
+        },
+        "vlm_tasks": {
+            "water_color": "TODO: Select from [dark_blue, greenish, muddy_brown, grey_concrete, black_monochrome]",
+            "texture_type": "TODO: Select from [smooth_concentric, chaotic_ripples, foamy_white, glassy, striated_noise]",
+            "splash_shape": "TODO: Select from [droplets, columnar, ripple, spray, boiling, chaotic_whitewater, faint_disturbance]",
+            "surface_cover": "TODO: Select from [none, white_netting_overlay, floating_algae, foam_scum]",
+            "interference": "TODO: Select from [none, paddlewheel_aerator, aerator_bubbles, bird_or_rat, plastic_pipes, green_net_fencing, distant_cages]",
+            "lighting": "TODO: Select from [diffuse, high_glare, shadowed, infrared_night_vision, ir_stripes]",
+            "container_edge": "TODO: Select from [none, open_water, plastic_edge, concrete_wall, netting]",
+            "description": "TODO: Concise visual description"
+        }
+    },
+    {
+        "cluster_id": 4,
+        "visual_dashboard_path": "cluster_4_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "A",
+            "source_distribution": "A(62.6%), C(37.4%)",
+            "environment_type": "outdoor_small_plastic_tank",
+            "fish_species": [
+                "black_seabream",
+                "seabass_fry"
+            ],
+            "perspective": "near_overhead",
+            "splash_intensity": 4,
+            "intensity_min": 1,
+            "intensity_max": 6
+        },
+        "vlm_tasks": {
+            "water_color": "TODO: Select from [dark_blue, greenish, muddy_brown, grey_concrete, black_monochrome]",
+            "texture_type": "TODO: Select from [smooth_concentric, chaotic_ripples, foamy_white, glassy, striated_noise]",
+            "splash_shape": "TODO: Select from [droplets, columnar, ripple, spray, boiling, chaotic_whitewater, faint_disturbance]",
+            "surface_cover": "TODO: Select from [none, white_netting_overlay, floating_algae, foam_scum]",
+            "interference": "TODO: Select from [none, paddlewheel_aerator, aerator_bubbles, bird_or_rat, plastic_pipes, green_net_fencing, distant_cages]",
+            "lighting": "TODO: Select from [diffuse, high_glare, shadowed, infrared_night_vision, ir_stripes]",
+            "container_edge": "TODO: Select from [none, open_water, plastic_edge, concrete_wall, netting]",
+            "description": "TODO: Concise visual description"
+        }
+    },
+    {
+        "cluster_id": 5,
+        "visual_dashboard_path": "cluster_5_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "E",
+            "source_distribution": "E(60.5%), D(39.5%)",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "fourfinger_threadfin"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 2,
+            "intensity_min": 1,
+            "intensity_max": 5
+        },
+        "vlm_tasks": {
+            "water_color": "TODO: Select from [dark_blue, greenish, muddy_brown, grey_concrete, black_monochrome]",
+            "texture_type": "TODO: Select from [smooth_concentric, chaotic_ripples, foamy_white, glassy, striated_noise]",
+            "splash_shape": "TODO: Select from [droplets, columnar, ripple, spray, boiling, chaotic_whitewater, faint_disturbance]",
+            "surface_cover": "TODO: Select from [none, white_netting_overlay, floating_algae, foam_scum]",
+            "interference": "TODO: Select from [none, paddlewheel_aerator, aerator_bubbles, bird_or_rat, plastic_pipes, green_net_fencing, distant_cages]",
+            "lighting": "TODO: Select from [diffuse, high_glare, shadowed, infrared_night_vision, ir_stripes]",
+            "container_edge": "TODO: Select from [none, open_water, plastic_edge, concrete_wall, netting]",
+            "description": "TODO: Concise visual description"
+        }
+    }
+]

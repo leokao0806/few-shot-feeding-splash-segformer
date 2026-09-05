@@ -1,0 +1,55 @@
+DEVICE: cuda # device used for training and evaluation (cpu, cuda, cuda0, cuda1, ...)
+SAVE_DIR: 'output_mix5_Segformer_B1' # output folder name used for saving the model, logs and inference results
+MODEL:
+  NAME: SegFormer # name of the model you are using
+  BACKBONE: MiT-B1 # model variant
+  PRETRAINED: 'checkpoints/pretrained/segformer/MiT-B1.pth' # backbone model's weight
+DATASET:
+  NAME: organized_ripple_4fold # dataset name to be trained with (camvid, cityscapes, ade20k)
+  ROOT: 'C:/Users/user/PycharmProjects/organized_ripple_4fold' # dataset root path
+  FIELD: 'barrel,sea,LNG,seabass_hmh,noon_jsj' #  field used in dataset
+  IGNORE_LABEL: 255
+# barrel  noon_jsj  noon_lsj  seabass_hmh  seabass_jsc
+# LNG     noon_ljd  sea       seabass_hsh  seabass_yyt
+
+# mix 5:      'barrel,sea,LNG,seabass_hmh,noon_jsj'   
+# red+orange: 'noon_lsj,seabass_hsh,seabass_yyt,sea'  cross: 'LNG,seabass_hmh'
+# orange:     'noon_jsj,noon_ljd,seabass_jsc'         cross: 'LNG,noon_lsj,seabass_hsh,seabass_yyt'
+# red:        'barrel,sea,seabass_hmh'                cross: 'LNG,noon_lsj,seabass_hsh,seabass_yyt'
+
+# b-back:        'barrel,seabass_jsc,seabass_hmh,noon_jsj'                cross: 'LNG,noon_lsj,seabass_hsh,seabass_yyt'
+# b2-back:        'barrel,seabass_jsc,seabass_hmh,noon_jsj,sea'                cross: 'LNG,noon_lsj,seabass_hsh,seabass_yyt'
+# b3-back:        'LNG,seabass_jsc,seabass_hmh,noon_jsj,sea'                cross: 'LNG,noon_lsj,seabass_hsh,seabass_yyt'
+# b4-back:        'barrel,seabass_hsh,seabass_hmh,noon_jsj'                cross: 'LNG,noon_lsj,seabass_hsh,seabass_yyt'
+TRAIN:
+  IMAGE_SIZE: [800, 800] # training image size in (h, w)
+  BATCH_SIZE: 5 # batch size used to train
+  EPOCHS: 300 # number of epochs to train
+  EVAL_INTERVAL: 1 # evaluation interval during training
+  AMP: false # use AMP in training
+  DDP: false # use DDP training
+  AUG: True # use data augmentation in training
+LOSS:
+  NAME: CrossEntropy # loss function name (ohemce, ce, dice)CrossEntropy,NLLLoss,FocalNLLLoss
+  CLS_WEIGHTS: false # use class weights in loss calculation
+OPTIMIZER:
+  NAME: adamw # optimizer name
+  LR: 0.0001 # initial learning rate used in optimizer
+  WEIGHT_DECAY: 0.01 # decay rate used in optimizer 
+SCHEDULER:
+  NAME: warmuppolylr # scheduler name
+  POWER: 0.9 # scheduler power
+  WARMUP: 10 # warmup epochs used in scheduler
+  WARMUP_RATIO: 0.1 # warmup ratio
+EVAL:
+  MODEL_PATH: 'checkpoints/pretrained/segformer/MiT-B1.pth' # trained model file path
+  IMAGE_SIZE: [800, 800] # evaluation image size in (h, w)                       
+  MSF:
+    ENABLE: false # multi-scale and flip evaluation  
+    FLIP: true # use flip in evaluation  
+    SCALES: [0.5, 0.75, 1.0, 1.25, 1.5, 1.75] # scales used in MSF evaluation                
+TEST:
+  MODEL_PATH: 'checkpoints/pretrained/segformer/MiT-B1.pth' # trained model file path
+  FILE: 'assests/ade' # filename or foldername 
+  IMAGE_SIZE: [800, 800] # inference image size in (h, w)
+  OVERLAY: true # save the overlay result (image_alpha+label_alpha)

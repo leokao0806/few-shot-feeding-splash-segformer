@@ -1,0 +1,282 @@
+[
+    {
+        "cluster_id": 0,
+        "visual_dashboard_path": "cluster_0_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "C",
+            "source_distribution": "C(91.8%), A(8.2%)",
+            "environment_type": "indoor_concrete_pond",
+            "fish_species": [
+                "hybrid_rock_bream"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 5,
+            "intensity_min": 3,
+            "intensity_max": 6
+        },
+        "vlm_tasks": {
+            "water_color": "greenish",
+            "texture_type": "chaotic_ripples",
+            "splash_shape": "spray",
+            "surface_cover": "none",
+            "interference": "aerator_bubbles",
+            "lighting": "diffuse",
+            "container_edge": "concrete_wall",
+            "description": "The cluster displays greenish pond water with chaotic ripples and spray-like splash dynamics, likely influenced by fine aerator bubbles under diffuse indoor lighting."
+        },
+        "graph_rag": {
+            "dominant_field": "C",
+            "environment_type": "indoor_concrete_pond",
+            "fish_species": [
+                "hybrid_rock_bream"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 5,
+            "intensity_min": 3,
+            "intensity_max": 6,
+            "source_distribution": "C(91.8%), A(8.2%)",
+            "water_color": "greenish",
+            "texture_type": "chaotic_ripples",
+            "splash_shape": "spray",
+            "surface_cover": "none",
+            "interference": "aerator_bubbles",
+            "lighting": "diffuse",
+            "container_edge": "concrete_wall",
+            "description": "The cluster displays greenish pond water with chaotic ripples and spray-like splash dynamics, likely influenced by fine aerator bubbles under diffuse indoor lighting."
+        }
+    },
+    {
+        "cluster_id": 1,
+        "visual_dashboard_path": "cluster_1_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "D",
+            "source_distribution": "D(76.4%), E(18.2%), B(3.9%), A(0.8%), C(0.8%)",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "seabass"
+            ],
+            "perspective": "far_distant",
+            "splash_intensity": 4,
+            "intensity_min": 1,
+            "intensity_max": 5
+        },
+        "vlm_tasks": {
+            "water_color": "grey_concrete",
+            "texture_type": "chaotic_ripples",
+            "splash_shape": "droplets",
+            "surface_cover": "none",
+            "interference": "green_net_fencing",
+            "lighting": "diffuse",
+            "container_edge": "concrete_wall",
+            "description": "The cluster exhibits greyish concrete pond water with diffuse lighting and chaotic ripples, characterized by small droplet-sized splashes and nearby green net fencing."
+        },
+        "graph_rag": {
+            "dominant_field": "D",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "seabass"
+            ],
+            "perspective": "far_distant",
+            "splash_intensity": 4,
+            "intensity_min": 1,
+            "intensity_max": 5,
+            "source_distribution": "D(76.4%), E(18.2%), B(3.9%), A(0.8%), C(0.8%)",
+            "water_color": "grey_concrete",
+            "texture_type": "chaotic_ripples",
+            "splash_shape": "droplets",
+            "surface_cover": "none",
+            "interference": "green_net_fencing",
+            "lighting": "diffuse",
+            "container_edge": "concrete_wall",
+            "description": "The cluster exhibits greyish concrete pond water with diffuse lighting and chaotic ripples, characterized by small droplet-sized splashes and nearby green net fencing."
+        }
+    },
+    {
+        "cluster_id": 2,
+        "visual_dashboard_path": "cluster_2_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "B",
+            "source_distribution": "B(83.1%), D(16.9%)",
+            "environment_type": "offshore_cage",
+            "fish_species": [
+                "cobia",
+                "pompano"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 9,
+            "intensity_min": 2,
+            "intensity_max": 10
+        },
+        "vlm_tasks": {
+            "water_color": "dark_blue",
+            "texture_type": "foamy_white",
+            "splash_shape": "boiling",
+            "surface_cover": "white_netting_overlay",
+            "interference": "plastic_pipes",
+            "lighting": "high_glare",
+            "container_edge": "netting",
+            "description": "High-intensity boiling splash dynamics with foamy white textures visible through a white netting overlay in dark blue offshore water under high glare lighting."
+        },
+        "graph_rag": {
+            "dominant_field": "B",
+            "environment_type": "offshore_cage",
+            "fish_species": [
+                "cobia",
+                "pompano"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 9,
+            "intensity_min": 2,
+            "intensity_max": 10,
+            "source_distribution": "B(83.1%), D(16.9%)",
+            "water_color": "dark_blue",
+            "texture_type": "foamy_white",
+            "splash_shape": "boiling",
+            "surface_cover": "white_netting_overlay",
+            "interference": "plastic_pipes",
+            "lighting": "high_glare",
+            "container_edge": "netting",
+            "description": "High-intensity boiling splash dynamics with foamy white textures visible through a white netting overlay in dark blue offshore water under high glare lighting."
+        }
+    },
+    {
+        "cluster_id": 3,
+        "visual_dashboard_path": "cluster_3_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "E",
+            "source_distribution": "E(80.8%), D(19.2%)",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "fourfinger_threadfin"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 2,
+            "intensity_min": 1,
+            "intensity_max": 5
+        },
+        "vlm_tasks": {
+            "water_color": "grey_concrete",
+            "texture_type": "glassy",
+            "splash_shape": "faint_disturbance",
+            "surface_cover": "none",
+            "interference": "plastic_pipes",
+            "lighting": "shadowed",
+            "container_edge": "concrete_wall",
+            "description": "The cluster shows greyish concrete pond water with a glassy surface and low-intensity faint disturbances, appearing under shadowed lighting with plastic pipes cutting through the frame."
+        },
+        "graph_rag": {
+            "dominant_field": "E",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "fourfinger_threadfin"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 2,
+            "intensity_min": 1,
+            "intensity_max": 5,
+            "source_distribution": "E(80.8%), D(19.2%)",
+            "water_color": "grey_concrete",
+            "texture_type": "glassy",
+            "splash_shape": "faint_disturbance",
+            "surface_cover": "none",
+            "interference": "plastic_pipes",
+            "lighting": "shadowed",
+            "container_edge": "concrete_wall",
+            "description": "The cluster shows greyish concrete pond water with a glassy surface and low-intensity faint disturbances, appearing under shadowed lighting with plastic pipes cutting through the frame."
+        }
+    },
+    {
+        "cluster_id": 4,
+        "visual_dashboard_path": "cluster_4_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "A",
+            "source_distribution": "A(62.6%), C(37.4%)",
+            "environment_type": "outdoor_small_plastic_tank",
+            "fish_species": [
+                "black_seabream",
+                "seabass_fry"
+            ],
+            "perspective": "near_overhead",
+            "splash_intensity": 4,
+            "intensity_min": 1,
+            "intensity_max": 6
+        },
+        "vlm_tasks": {
+            "water_color": "greenish",
+            "texture_type": "chaotic_ripples",
+            "splash_shape": "spray",
+            "surface_cover": "none",
+            "interference": "aerator_bubbles",
+            "lighting": "diffuse",
+            "container_edge": "plastic_edge",
+            "description": "The cluster features greenish water in a plastic tank with diffuse lighting, characterized by chaotic ripples and spray-like splashes likely caused by aerator bubbles."
+        },
+        "graph_rag": {
+            "dominant_field": "A",
+            "environment_type": "outdoor_small_plastic_tank",
+            "fish_species": [
+                "black_seabream",
+                "seabass_fry"
+            ],
+            "perspective": "near_overhead",
+            "splash_intensity": 4,
+            "intensity_min": 1,
+            "intensity_max": 6,
+            "source_distribution": "A(62.6%), C(37.4%)",
+            "water_color": "greenish",
+            "texture_type": "chaotic_ripples",
+            "splash_shape": "spray",
+            "surface_cover": "none",
+            "interference": "aerator_bubbles",
+            "lighting": "diffuse",
+            "container_edge": "plastic_edge",
+            "description": "The cluster features greenish water in a plastic tank with diffuse lighting, characterized by chaotic ripples and spray-like splashes likely caused by aerator bubbles."
+        }
+    },
+    {
+        "cluster_id": 5,
+        "visual_dashboard_path": "cluster_5_dashboard.jpg",
+        "expert_metadata": {
+            "dominant_field": "E",
+            "source_distribution": "E(60.5%), D(39.5%)",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "fourfinger_threadfin"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 2,
+            "intensity_min": 1,
+            "intensity_max": 5
+        },
+        "vlm_tasks": {
+            "water_color": "black_monochrome",
+            "texture_type": "chaotic_ripples",
+            "splash_shape": "faint_disturbance",
+            "surface_cover": "none",
+            "interference": "plastic_pipes",
+            "lighting": "infrared_night_vision",
+            "container_edge": "concrete_wall",
+            "description": "The cluster exhibits black monochrome water with chaotic ripples and faint disturbances observed under infrared night vision, with prominent plastic pipes crossing the field of view."
+        },
+        "graph_rag": {
+            "dominant_field": "E",
+            "environment_type": "onshore_concrete_pond",
+            "fish_species": [
+                "fourfinger_threadfin"
+            ],
+            "perspective": "medium_oblique",
+            "splash_intensity": 2,
+            "intensity_min": 1,
+            "intensity_max": 5,
+            "source_distribution": "E(60.5%), D(39.5%)",
+            "water_color": "black_monochrome",
+            "texture_type": "chaotic_ripples",
+            "splash_shape": "faint_disturbance",
+            "surface_cover": "none",
+            "interference": "plastic_pipes",
+            "lighting": "infrared_night_vision",
+            "container_edge": "concrete_wall",
+            "description": "The cluster exhibits black monochrome water with chaotic ripples and faint disturbances observed under infrared night vision, with prominent plastic pipes crossing the field of view."
+        }
+    }
+]
